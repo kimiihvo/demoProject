@@ -10,6 +10,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index(Model model) {
         model.addAttribute("message", "타임리프.............");
+
         return "index";
     }
 
